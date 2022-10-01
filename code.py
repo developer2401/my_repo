@@ -25,16 +25,16 @@ for dirname, _, filenames in os.walk(r'D:\tomato dataset'):   #train dataset add
     for filename in filenames:
         print(os.path.join(dirname, filename))
 
-tomato_bacterial_spot_dir=r'D:\tomato dataset\Bacterial_spot227'  #address of all the folders inside the dataset
-tomato_early_blight_dir=r'D:\tomato dataset\Early_blight227'
-tomato_late_blight_dir=r'D:\tomato dataset\Late_blight227'
-tomato_leaf_mold_dir=r'D:\tomato dataset\Leaf_Mold227'
-tomato_septoria_leaf_spot_dir=r'D:\tomato dataset\Septoria_leaf_spot227'
-tomato_spider_mite_dir=r'D:\tomato dataset\Two-spotted_spider_mite227'
-tomato_target_spot_dir=r'D:\tomato dataset\Target_Spot227'
-tomato_yellow_leaf_curl_dir=r'D:\tomato dataset\Tomato_Yellow_Leaf_Curl_Virus227'
-tomato_mosaic_virus_dir=r'D:\tomato dataset\Tomato_mosaic_virus227'
-tomato_healthy_dir=r'D:\tomato dataset\healthy227'
+tomato_bacterial_spot_dir=r''  #address of all the folders inside the dataset
+tomato_early_blight_dir=r''
+tomato_late_blight_dir=r''
+tomato_leaf_mold_dir=r''
+tomato_septoria_leaf_spot_dir=r''
+tomato_spider_mite_dir=r''
+tomato_target_spot_dir=r''
+tomato_yellow_leaf_curl_dir=r''
+tomato_mosaic_virus_dir=r''
+tomato_healthy_dir=r''
 
 nrows=10
 ncols=10
