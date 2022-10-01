@@ -21,16 +21,6 @@ epochs = 10
 batch_size = 32
 n_classes = 10
 
-for i, img_path in enumerate(
-        next_tomato_bacterial_spot_pix + next_tomato_early_blight_pix + next_tomato_late_blight_pix + next_tomato_leaf_mold_pix + next_tomato_septoria_leaf_spot_pix + next_tomato_spider_mite_pix + next_tomato_target_spot_pix + next_tomato_yellow_leaf_curl_pix + next_tomato_mosaic_virus_pix + next_tomato_healthy_pix):
-    # Set up subplot; subplot indices start at 1
-    sp = plt.subplot(nrows, ncols, i + 1)
-    sp.axis('Off')  # Don't show axes (or gridlines)
-    img = mpimg.imread(img_path)
-    plt.imshow(img)
-
-plt.show()
-
 labels=['bacterial_spot','early_blight','late_blight','leaf_mold','septoria_leaf_spot','spider_mite','target_spot','yellow_leaf_curl','mosaic_virus','healthy']
 
 validation_data_dir = 'tomato test set'
