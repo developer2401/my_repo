@@ -1,4 +1,5 @@
 This open source project is related to the identification of different type of tomato leaf diseases like 
+
 -bacterial_spot
 
 -early_blight
