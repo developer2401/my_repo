@@ -21,8 +21,6 @@ epochs = 10
 batch_size = 32
 n_classes = 10
 
-f
-
 for i, img_path in enumerate(
         next_tomato_bacterial_spot_pix + next_tomato_early_blight_pix + next_tomato_late_blight_pix + next_tomato_leaf_mold_pix + next_tomato_septoria_leaf_spot_pix + next_tomato_spider_mite_pix + next_tomato_target_spot_pix + next_tomato_yellow_leaf_curl_pix + next_tomato_mosaic_virus_pix + next_tomato_healthy_pix):
     # Set up subplot; subplot indices start at 1
